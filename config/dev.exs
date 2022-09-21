@@ -8,6 +8,7 @@ config :reproduction_of_schema_migrator_sql_logging_issue,
        hostname: "localhost",
        database: "reproduction_of_schema_migrator_sql_logging_issue_dev",
        stacktrace: true,
+       log: false,
        show_sensitive_data_on_connection_error: true,
        pool_size: 10
 

@@ -19,6 +19,7 @@ defmodule ReproductionOfSchemaMigratorSqlLoggingIssue.Application do
       # Start a worker by calling: ReproductionOfSchemaMigratorSqlLoggingIssue.Worker.start_link(arg)
       # {ReproductionOfSchemaMigratorSqlLoggingIssue.Worker, arg}
     ]
+    Ecto.DevLogger.install(ReproductionOfSchemaMigratorSqlLoggingIssue.Repo)
 
     # See https://hexdocs.pm/elixir/Supervisor.html
     # for other strategies and supported options
