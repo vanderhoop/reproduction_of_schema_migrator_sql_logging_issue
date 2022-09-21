@@ -1,0 +1,3 @@
+defmodule ReproductionOfSchemaMigratorSqlLoggingIssue.Mailer do
+  use Swoosh.Mailer, otp_app: :reproduction_of_schema_migrator_sql_logging_issue
+end

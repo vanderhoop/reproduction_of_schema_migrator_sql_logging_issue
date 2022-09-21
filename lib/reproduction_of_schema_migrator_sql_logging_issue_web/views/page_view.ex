@@ -1,0 +1,3 @@
+defmodule ReproductionOfSchemaMigratorSqlLoggingIssueWeb.PageView do
+  use ReproductionOfSchemaMigratorSqlLoggingIssueWeb, :view
+end

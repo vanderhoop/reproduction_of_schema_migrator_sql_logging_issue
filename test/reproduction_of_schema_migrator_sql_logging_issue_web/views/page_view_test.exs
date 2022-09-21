@@ -1,0 +1,3 @@
+defmodule ReproductionOfSchemaMigratorSqlLoggingIssueWeb.PageViewTest do
+  use ReproductionOfSchemaMigratorSqlLoggingIssueWeb.ConnCase, async: true
+end
